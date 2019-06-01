@@ -7,13 +7,39 @@ namespace primary
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("I'm trying to be programmer");
-            Console.WriteLine("Zadej číslo 1");
-            int a = int.Parse(Console.ReadLine());
-            Console.WriteLine("číslo se vynásobí číslem 2");
-            a = a * 2;
-            Console.WriteLine(a);
+            Console.WriteLine("Zadej první číslo");
+            int first = int.Parse(Console.ReadLine());
+            Console.WriteLine("Zadej operátor\n Pro sčítání zadej: 1\n Pro odčítání zadej: 2\n Pro násobení zadej: 3\n Pro dělení zadej: 4\n Pro umocnění zadej: 5\n Pro odmocnění zadej: 6\n");
+            int cross = int.Parse(Console.ReadLine());
+            Console.WriteLine("zadej druhé číslo");
+
+            switch (cross)
+            {
+                case 1:
+
+                    break;
+                case 2:
+
+                    break;
+                case 3:
+
+                    break;
+                case 4:
+
+                    break;
+                case 5:
+
+                    break;
+                case 6:
+
+                    break;
+                default:
+
+                    break;
+
+
+
+            }
 
         }
     }
